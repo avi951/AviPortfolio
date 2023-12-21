@@ -48,7 +48,7 @@ const project = React.forwardRef((props, ref) => {
             <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] mx:w-[17rem] xl:w-[17rem] 2xl:w-[17rem] 3xl:w-[17rem] 3xl:h-[32rem]">
               <div className="">
                 <Link
-                  to="https://github.com/avishihora/BookReader.com"
+                  to="https://github.com/avi951/BookReader"
                   style={{ margin: " 0 auto" }}
                 >
                   <img
