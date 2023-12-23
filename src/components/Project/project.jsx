@@ -45,14 +45,14 @@ const project = React.forwardRef((props, ref) => {
 
         <div className="ProjectWork sm:grid sm:grid-cols-1 md:grid md:grid-cols-2  mx:grid mx:grid-cols-2 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-3 2xl:grid 2xl:grid-cols-3 3xl:grid 3xl:grid-cols-3">
           <div className="nft">
-            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] mx:w-[17rem] xl:w-[17rem] 2xl:w-[17rem] 3xl:w-[17rem] 3xl:h-[32rem]">
+            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] mx:w-[17rem] xl:w-[17rem] 2xl:w-[17rem] 2xl:h-[35rem] 3xl:w-[17rem] 3xl:h-[32rem]">
               <div className="">
                 <Link
                   to="https://github.com/avi951/BookReader"
                   style={{ margin: " 0 auto" }}
                 >
                   <img
-                    className="tokenImage mx-auto sm:w-[10rem] sm:mx-auto md:mx-auto sm:h-[18rem] md:h-[15rem] md:mx-auto lg:h-[18rem] xl:h-[18rem] 3xl:h-[16rem] 3xl:mt-4 "
+                    className="tokenImage mx-auto sm:w-[10rem] sm:mx-auto md:mx-auto sm:h-[18rem] md:h-[15rem] md:mx-auto lg:h-[18rem] xl:h-[18rem] 2xl:mx-auto 2xl:h-[19rem] 3xl:h-[18rem] 3xl:mt-4 2xl:mt-[2rem]"
                     src={Book}
                     alt="Book Web App"
                   />
@@ -90,12 +90,12 @@ const project = React.forwardRef((props, ref) => {
             </div>
           </div>
           <div className="nft">
-            <div className="main sm:w-[14rem] sm:h-[28rem] md:w-[15rem] md:h-[30rem] mx:w-[17rem] lg:h-[30rem] xl:h-[30rem] ">
+            <div className="main sm:w-[14rem] sm:h-[28rem] md:w-[15rem] md:h-[30rem] mx:w-[17rem] lg:h-[30rem] xl:h-[30rem] 3xl:h-[30rem] 3xl:h-[32rem] ">
               <div>
                 {" "}
-                <a href="http://localhost:5173/">
+                <a href="https://github.com/avi951/AviPortfolio">
                   <img
-                    className="tokenImage sm:h-[18rem] md:h-[17rem] lg:mt-[6rem]  xl:mt-[6rem]  3xl:h-[20rem]"
+                    className="tokenImage sm:h-[18rem] md:h-[17rem] lg:mt-[6rem]  xl:mt-[6rem]  3xl:h-[20rem] 2xl:h-[25rem]"
                     src={portfolioWeb}
                     alt="NFT"
                   />
@@ -127,14 +127,18 @@ const project = React.forwardRef((props, ref) => {
             </div>
           </div>
           <div className="nft">
-            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem] ">
+            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem] 2xl:h-[36rem]  3xl:h-[32rem]">
               <div>
+                <a href="https://github.com/avi951/CPSN">
                 <img
-                  className="tokenImage  sm:h-[18rem] md:h-[15rem] md:mx-auto lg:h-[17rem] lg:mx-auto xl:w-[13rem] xl:mx-auto"
+                  
+                  className="tokenImage  sm:h-[18rem] md:h-[15rem] md:mx-auto lg:h-[17rem] lg:mx-auto xl:w-[13rem] xl:mx-auto 2xl:mx-auto 2xl:h-[18rem] 3xl:mx-auto 3xl:h-[18rem] 3xl:mt-6 2xl:mt-[2.75rem]"
                   src={CPSN}
                   alt="NFT"
                 />
+              </a>
               </div>
+
               <div>
                 <h2 className="sm:text-base sm:tracking-[1px] lg:text-lg lg:tracking-[2px] md:text-lg md:tracking-[2px] mx:text-lg mx:tracking-[2px] 2xl:text-[1.6rem] xl:text-[1.2rem] xl:tracking-[2px] 2xl:tracking-[2px] 3xl:text-[1.5rem] 3xl:tracking-[2px]">
                   CPSN Project
@@ -164,10 +168,10 @@ const project = React.forwardRef((props, ref) => {
             </div>
           </div>
           <div className="nft">
-            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem]">
+            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem] 2xl:h-[36rem] 3xl:h-[32rem]">
               <div>
                 <img
-                  className="tokenImage  sm:h-[18rem] sm:mx-auto md:mx-auto md:h-[15rem] md:w-[13rem] md:mx-auto lg:mx-auto lg:w-[15rem] xl:w-[14rem] xl:mx-auto 3xl:h-[22rem] "
+                  className="tokenImage  sm:h-[18rem] sm:mx-auto md:mx-auto md:h-[15rem] md:w-[13rem] md:mx-auto lg:mx-auto lg:w-[15rem] xl:w-[14rem] xl:mx-auto 2xl:h-[16rem] 2xl:mx-auto 2xl:mt-[2rem] 3xl:h-[18rem] 3xl:mx-auto 3xl:mt-5 "
                   src={SandL}
                   alt="Snake&Ladder"
                   width="fit-content"
@@ -196,7 +200,7 @@ const project = React.forwardRef((props, ref) => {
             </div>
           </div>
           <div className="nft">
-            <div className="main sm:w-[14rem]  md:w-[15rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem] 2xl:h-[30rem]">
+            <div className="main sm:w-[14rem]  md:w-[15rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem] 2xl:h-[36rem]">
               <div>
                 <img
                   className="tokenImage sm:h-[18rem]  md:mt-[7rem] lg:mt-[5rem] xl:mt-[5rem] 2xl:mt-[5rem] 3xl:h-[21rem]"
@@ -231,7 +235,7 @@ const project = React.forwardRef((props, ref) => {
           </div>
 
           <div className="nft">
-            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] lg:h-[30rem]  xl:h-[30rem] 2xl:h-[30rem]">
+            <div className="main sm:w-[14rem] md:w-[15rem] md:h-[30rem] lg:h-[30rem]  xl:h-[30rem] 2xl:h-[36rem]">
               <div>
                 <Link to="/project/images">
                   <img

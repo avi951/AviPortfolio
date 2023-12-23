@@ -54,26 +54,26 @@ const Sidebar = () => {
           <img
             src={namelogo}
             alt=""
-            className=" h-20 ssm:h-12 sm:h-[3rem] md:h-[3rem] mx:h-[3.5rem] lg:h-16 xl:h-16 2xl:h-16"
+            className="animate-fade-down animate-ease-in h-20 ssm:h-12 sm:h-[3rem] md:h-[3rem] mx:h-[3.5rem] lg:h-16 xl:h-16 2xl:h-16"
           />
         </div>
         <div className="flex flex-row space-x-3  justify-end  text-2xl subpixel-antialiased font-light tracking-widest sm:items-center sm:bg-sky-300 md:hidden mx:hidden lg:hidden  ssm:hidden	sm:hidden">
-          <div className="px-2 pb-1 hover:border-b-2 border-white-500 ">
+          <div className="px-2 pb-1 hover:border-b-2 border-white-500 animate-fade-up animate-ease-in">
             <a href="/">Home</a>
           </div>
-          <div className="px-2 pb-1 hover:border-b-2 border-white-500">
+          <div className="px-2 pb-1 hover:border-b-2 border-white-500 animate-fade-down animate-ease-in">
             <a href="#Education">Education</a>
           </div>
-          <div className="px-2 pb-1 hover:border-b-2 border-white-500">
+          <div className="px-2 pb-1 hover:border-b-2 border-white-500 animate-fade-up animate-ease-in">
             <a href="#Experience">Experience</a>
           </div>
-          <div className="px-2 pb-1 hover:border-b-2 border-white-500">
+          <div className="px-2 pb-1 hover:border-b-2 border-white-500 animate-fade-down animate-ease-in">
             <a href="#Skill">Skill</a>
           </div>
-          <div className="px-2 pb-1 hover:border-b-2 border-white-500">
+          <div className="px-2 pb-1 hover:border-b-2 border-white-500 animate-fade-up animate-ease-in">
             <a href="#Project">Project</a>
           </div>
-          <div className="px-2 pb-1 hover:border-b-2 border-white-500">
+          <div className="px-2 pb-1 hover:border-b-2 border-white-500 animate-fade-down animate-ease-in">
             <a href="#Contact">Contact</a>
           </div>
         </div>

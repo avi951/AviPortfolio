@@ -28,7 +28,7 @@ const Education = React.forwardRef((props, ref) => {
           }`}
           ref={ref}
         >
-          <div className="text-[2.4rem] w-[50%] mx-auto sm:mx-auto sm:mt-2 sm:text-[1.4rem] text-center sm:tracking-[2px] bg-slate-200 text-[#262626] sm:mx-8 sm:py-2 sm:font-medium md:text-[2rem] md:px-6 mx:px-6 md:font-medium md:tracking-wide xl:text-[2rem] 2xl:text-[2rem] 3xl:text-[2rem]	">
+          <div className=" text-[2.4rem] w-[50%] mx-auto sm:mx-auto sm:mt-2 sm:text-[1.4rem] text-center sm:tracking-[2px] bg-slate-200 text-[#262626] sm:mx-8 sm:py-2 sm:font-medium md:text-[2rem] md:px-6 mx:px-6 md:font-medium md:tracking-wide xl:text-[2rem] 2xl:text-[2rem] 3xl:text-[2rem]	">
             EDUCATION QUALIFICATION
           </div>
           <div

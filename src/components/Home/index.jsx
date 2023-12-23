@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <>
       <div className="homeDiv home-page  ssm:h-[100vh] sm:h-[100vh] md:h-[100vh] mx:h-[100vh] lg:h-[100vh] xl:h-[100vh] 2xl:h-[100vh] 3xl:h-[100vh] lg:mx-[7%] xl:mx-[7%] 2xl:mx-[10%] 3xl:mx-[10%]">
-        <div className="profileImg   animate-fade-right  animate-once ssm:relative ssm:text-center  ">
+        <div className="profileImg   animate-fade-right animate-ease-in  ssm:relative ssm:text-center  ">
           <img
             className=" profilePic    w-[26%] top-[5%] absolute right-6 top-1 
           ssm:relative ssm:left-[50%] ssm:-translate-x-[50%]  ssm:w-[12em]  
@@ -55,7 +55,7 @@ const Home = () => {
             alt=""
           />
         </div>
-        <div className=" absolute partitionLine top-[2rem] text-[0.4rem] h-[35rem] font-thin rotate-[4deg] left-[55%] bg-white ssm:hidden sm:hidden md:hidden	mx:hidden lg:hidden xl:h-[60em] xl:left-[70%] 2xl:h-[70em] 3xl:h-[69em] 2xl:left-[60%] 3xl:left-[63%]">
+        <div className="animate-jump-in animate-ease-in absolute partitionLine top-[2rem] text-[0.4rem] h-[35rem] font-thin rotate-[4deg] left-[55%] bg-white ssm:hidden sm:hidden md:hidden	mx:hidden lg:hidden xl:h-[60em] xl:left-[70%] 2xl:h-[70em] 3xl:h-[69em] 2xl:left-[60%] 3xl:left-[63%]">
           |
         </div>
         <div
